@@ -1,0 +1,36 @@
+﻿<Module>
+  <Name value="HonestCharacterAge"/>
+  <Id value="HonestCharacterAge"/>
+  <Version value="v1.0.1"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="StoryMode" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="HonestCharacterAge"/>
+      <DLLName value="HonestCharacterAge.dll"/>
+      <SubModuleClassType value="HonestCharacterAge.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+  <!-- <Xmls>
+    <XmlNode>
+      <XmlName type="1" id="Items" path="customitems"/>
+    </XmlNode>
+    <XmlNode>
+      <XmlName type="1" id="SPCultures" path="customcultures"/>
+    </XmlNode>
+    <XmlNode>
+      <XmlName type="1" id="NPCCharacters" path="customcharacters"/>
+    </XmlNode>
+  </Xmls> -->
+  <Xmls/>
+</Module>
